@@ -92,7 +92,7 @@ footer a {
 .card {
     position: relative;
     width: 300px;
-    height: 180px;
+    min-height: 180px; /* Use min-height para garantir altura mínima */
     padding: 10px;
     background-color: #000;
     color: #fff;
@@ -101,7 +101,7 @@ footer a {
     text-align: center;
     margin: 10px;
     transition: transform 0.2s, box-shadow 0.2s;
-    overflow: hidden; /* Evita que o selo se estenda para fora do card */
+    overflow: hidden;
 }
 
 .card::before {
@@ -114,20 +114,20 @@ footer a {
     top: 10px;
     left: 10px;
     transform: rotate(-45deg);
-    width: 80px; /* Ajuste o tamanho do selo conforme necessário */
+    width: 80px;
     text-align: center;
+    z-index: 2;
 }
 
 .card::before,
 .card h2,
 .card p {
-    z-index: 2; /* Garante que o selo e o conteúdo do card fiquem na frente da borda */
+    position: relative;
 }
 
 .card h2,
 .card p {
-    position: relative; /* Define o conteúdo do card de volta para a posição relativa */
-    z-index: 1; /* Garante que o conteúdo do card esteja na frente da borda */
+    z-index: 1;
 }
 
 .card:hover {
