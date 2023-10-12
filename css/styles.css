@@ -82,29 +82,32 @@ footer a {
     margin-top: 5px; /* Espaço entre a imagem e o texto */
 }
 
-.carousel-section {
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 800px; /* Ajuste o tamanho máximo do carrossel */
-    height: 400px; /* Defina a altura desejada */
-    margin: 0 auto; /* Centralize o carrossel na página */
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
-.carousel-text {
-    display: flex;
-    align-items: center;
-    padding: 20px; /* Aumente o preenchimento para dar mais espaço ao conteúdo */
+.card {
+    width: 300px;
+    padding: 20px;
     background-color: #333;
     color: #fff;
     border-radius: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
-.carousel-text img {
-    width: 50px; /* Aumente o tamanho das imagens dos clientes */
-    height: 50px; /* Aumente o tamanho das imagens dos clientes */
-    border-radius: 50%;
+.card img {
+    width: 100%;
+    border-radius: 10px;
 }
 
-.carousel-item {
-    height: 200px; /* Defina a altura dos cards do carrossel */
+.card h2 {
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 14px;
 }
