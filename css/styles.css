@@ -123,3 +123,22 @@ footer a {
     /* Ao passar o mouse, aumenta a escala em 5% */
     transform: scale(1.05);
 }
+
+.client-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.client-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.client-info h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}
