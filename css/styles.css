@@ -99,8 +99,13 @@ footer a {
     border-radius: 10px;
     text-align: center;
     margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Adicione transições de animação */
 }
-.card img {
+
+.card:hover {
+    transform: scale(1.05); /* Ao passar o mouse, aumenta a escala em 5% */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Adicione uma sombra suave ao passar o mouse */
+}.card img {
     width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
     height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
     border-radius: 50%;
