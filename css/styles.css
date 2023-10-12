@@ -92,7 +92,7 @@ footer a {
 .card {
     position: relative;
     width: 300px;
-    min-height: 180px; /* Use min-height para garantir altura mínima */
+    min-height: 180px;
     padding: 10px;
     background-color: #000;
     color: #fff;
@@ -102,6 +102,9 @@ footer a {
     margin: 10px;
     transition: transform 0.2s, box-shadow 0.2s;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card::before {
@@ -111,23 +114,31 @@ footer a {
     padding: 5px;
     border-radius: 5px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: -10px;
+    left: -10px;
     transform: rotate(-45deg);
     width: 80px;
     text-align: center;
+    z-index: 1;
+}
+
+.card h2,
+.card p {
     z-index: 2;
 }
 
-.card::before,
-.card h2,
-.card p {
-    position: relative;
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-.card h2,
 .card p {
-    z-index: 1;
+    margin: 0;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .card:hover {
