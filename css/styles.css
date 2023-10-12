@@ -113,7 +113,21 @@ footer a {
     position: absolute;
     top: 10px;
     left: 10px;
-    transform: rotate(-45deg); /* Rotação de 45 graus */
+    transform: rotate(-45deg);
+    width: 80px; /* Ajuste o tamanho do selo conforme necessário */
+    text-align: center;
+}
+
+.card::before,
+.card h2,
+.card p {
+    z-index: 2; /* Garante que o selo e o conteúdo do card fiquem na frente da borda */
+}
+
+.card h2,
+.card p {
+    position: relative; /* Define o conteúdo do card de volta para a posição relativa */
+    z-index: 1; /* Garante que o conteúdo do card esteja na frente da borda */
 }
 
 .card:hover {
@@ -128,16 +142,3 @@ footer a {
     margin: 0 auto 10px; /* Centralize a imagem e adicione espaço abaixo dela */
 }
 
-.card h2 {
-    font-size: 18px;
-    margin: 0;
-}
-
-.card p {
-    margin: 10px 0;
-    background-color: transparent; /* Remova o fundo azul */
-    color: #fff; /* Texto mais forte */
-    font-weight: bold; /* Texto mais forte */
-    padding: 5px 10px;
-    border-radius: 5px;
-}
