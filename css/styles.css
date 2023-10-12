@@ -93,12 +93,13 @@ footer a {
     width: 300px; /* Ajuste a largura do card conforme necessário */
     height: 180px; /* Ajuste a altura do card conforme necessário */
     padding: 10px;
-    background-color: #333;
+    background-color: #000; /* Fundo preto mais escuro */
     color: #fff;
     border-radius: 10px;
     text-align: center;
     margin: 10px;
 }
+
 .card img {
     width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
     height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
@@ -114,8 +115,9 @@ footer a {
 
 .card p {
     margin: 10px 0;
-    background-color: #5469a3;
-    color: #fff;
+    background-color: transparent; /* Remova o fundo azul */
+    color: #fff; /* Texto mais forte */
+    font-weight: bold; /* Texto mais forte */
     padding: 5px 10px;
     border-radius: 5px;
 }
