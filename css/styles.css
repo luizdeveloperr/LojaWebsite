@@ -47,8 +47,13 @@ body {
     text-decoration: none;
     margin: 10px;
     font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.3s; 
 }
 
+.btn:hover {
+    background-color: #5469a3; /* Altera a cor de fundo quando o botão é hover */
+}
 footer {
     text-align: center;
     background-color: #333;
