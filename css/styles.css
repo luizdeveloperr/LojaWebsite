@@ -90,34 +90,35 @@ footer a {
 }
 
 .card {
-    position: relative; /* Tornar a posição do card relativa */
-    width: 300px; /* Ajuste a largura do card conforme necessário */
-    height: 180px; /* Ajuste a altura do card conforme necessário */
+    position: relative;
+    width: 300px;
+    height: 180px;
     padding: 10px;
-    background-color: #000; /* Fundo preto */
+    background-color: #000;
     color: #fff;
-    border: 1px solid #fff; /* Borda branca de 1 pixel */
+    border: 1px solid #fff;
     border-radius: 10px;
     text-align: center;
     margin: 10px;
-    transition: transform 0.2s, box-shadow 0.2s; /* Adicione transições de animação */
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden; /* Evita que o selo se estenda para fora do card */
 }
 
 .card::before {
-    content: "Cliente"; /* Texto "Cliente" no selo */
-    background-color: gold; /* Cor de fundo dourado */
-    color: #000; /* Cor do texto do selo */
+    content: "Cliente";
+    background-color: gold;
+    color: #000;
     padding: 5px;
     border-radius: 5px;
     position: absolute;
     top: 10px;
     left: 10px;
-    transform: rotate(-90deg); /* Rotação para torná-lo vertical */
+    transform: rotate(-45deg); /* Rotação de 45 graus */
 }
 
 .card:hover {
-    transform: scale(1.05); /* Ao passar o mouse, aumenta a escala em 5% */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Adicione uma sombra suave ao passar o mouse */
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 .card img {
     width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
