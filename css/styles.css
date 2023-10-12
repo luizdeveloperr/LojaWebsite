@@ -81,3 +81,23 @@ footer a {
 .info-box p {
     margin-top: 5px; /* Espaço entre a imagem e o texto */
 }
+
+.carousel-section {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.carousel-text img {
+    width: 30px;
+    border-radius: 50%;
+}
