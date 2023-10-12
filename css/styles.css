@@ -81,23 +81,25 @@ footer a {
 .info-box p {
     margin-top: 5px; /* Espaço entre a imagem e o texto */
 }
-
 .carousel-section {
     border-radius: 10px;
     overflow: hidden;
+    max-width: 800px; /* Ajuste o tamanho máximo do carrossel */
+    margin: 0 auto; /* Centralize o carrossel na página */
 }
 
 .carousel-text {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px; /* Aumente o preenchimento para dar mais espaço ao conteúdo */
     background-color: #333;
     color: #fff;
     border-radius: 10px;
 }
 
 .carousel-text img {
-    width: 30px;
+    width: 50px; /* Aumente o tamanho das imagens dos clientes */
+    height: 50px; /* Aumente o tamanho das imagens dos clientes */
     border-radius: 50%;
 }
