@@ -107,20 +107,6 @@ footer a {
     justify-content: space-between;
 }
 
-.card::before {
-    content: "CLIENTE";
-    background-color: gold;
-    color: #000;
-    padding: 5px;
-    border-radius: 5px;
-    position: absolute;
-    top: -5px; /* Ajustei a posição do selo para que o texto seja exibido por completo */
-    left: -5px; /* Ajustei a posição do selo para que o texto seja exibido por completo */
-    transform: rotate(-45deg);
-    width: 80px;
-    text-align: center;
-    z-index: 1;
-}
 
 .card h2,
 .card p {
