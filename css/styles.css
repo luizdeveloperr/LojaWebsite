@@ -90,63 +90,32 @@ footer a {
 }
 
 .card {
-    width: 300px;
-    padding: 20px;
+    width: 200px; /* Ajuste a largura do card conforme necessário */
+    padding: 10px;
     background-color: #333;
     color: #fff;
     border-radius: 10px;
-    margin: 10px;
     text-align: center;
+    margin: 10px;
 }
 
 .card img {
-    width: 100%;
-    border-radius: 10px;
+    width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px; /* Centralize a imagem e adicione espaço abaixo dela */
 }
 
 .card h2 {
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0;
 }
 
 .card p {
-    font-size: 14px;
-}
-
-.card {
-    /* Estilos anteriores do card */
-
-    /* Adiciona uma transição suave na escala (aumento de tamanho) */
-    transition: transform 0.2s;
-}
-
-.card:hover {
-    /* Ao passar o mouse, aumenta a escala em 5% */
-    transform: scale(1.05);
-}
-
-.client-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.client-info img {
-    width: 60px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 60px; /* Ajuste o tamanho da imagem conforme necessário */
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.card p {
-    background-color: #5469a3; /* Adicione um destaque à avaliação */
+    margin: 10px 0;
+    background-color: #5469a3;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
-    margin: 10px 0;
-}
-.client-info h2 {
-    margin: 0;
-    font-size: 18px;
-    color: #fff;
-    display: inline; /* Permite que o nome do cliente fique na mesma linha da imagem */
 }
