@@ -90,7 +90,8 @@ footer a {
 }
 
 .card {
-    width: 200px; /* Ajuste a largura do card conforme necessário */
+    width: 300px; /* Ajuste a largura do card conforme necessário */
+    height: 180px; /* Ajuste a altura do card conforme necessário */
     padding: 10px;
     background-color: #333;
     color: #fff;
@@ -98,7 +99,6 @@ footer a {
     text-align: center;
     margin: 10px;
 }
-
 .card img {
     width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
     height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
