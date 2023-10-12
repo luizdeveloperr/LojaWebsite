@@ -93,8 +93,9 @@ footer a {
     width: 300px; /* Ajuste a largura do card conforme necessário */
     height: 180px; /* Ajuste a altura do card conforme necessário */
     padding: 10px;
-    background-color: #e040f5; /* Cor roxa neon */
+    background-color: #000; /* Fundo preto */
     color: #fff;
+    border: 1px solid #fff; /* Borda branca de 1 pixel */
     border-radius: 10px;
     text-align: center;
     margin: 10px;
