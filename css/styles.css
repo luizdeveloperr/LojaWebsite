@@ -111,3 +111,15 @@ footer a {
 .card p {
     font-size: 14px;
 }
+
+.card {
+    /* Estilos anteriores do card */
+
+    /* Adiciona uma transição suave na escala (aumento de tamanho) */
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    /* Ao passar o mouse, aumenta a escala em 5% */
+    transform: scale(1.05);
+}
