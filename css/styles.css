@@ -145,7 +145,7 @@ footer a {
     height: 50px; /* Tamanho da imagem do cliente */
     display: block;
     margin: 0 auto;
-        }
+}
 
 .card:hover {
     transform: scale(1.05);
