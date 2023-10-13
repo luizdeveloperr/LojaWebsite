@@ -121,3 +121,12 @@ footer a {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
+
+.larger-text {
+    font-size: 24px; /* Tamanho maior para o título "LinkzinHo" */
+    font-weight: bold; /* Estilize o título conforme necessário */
+}
+
+.card-text {
+    font-size: 16px; /* Tamanho do texto de avaliação */
+}
