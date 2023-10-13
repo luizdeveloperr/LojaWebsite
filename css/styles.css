@@ -105,7 +105,14 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative; /* Adicione uma posição relativa */
+    position: relative;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .card h2 {
@@ -125,9 +132,6 @@ footer a {
 }
 
 .card-image {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -136,14 +140,11 @@ footer a {
 
 .card-image-new {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     width: 30px;
     height: 30px;
-    /* Estilize a imagem nova, por exemplo, adicione um fundo e borda */
-    background-color: #FFD700; /* Cor de fundo dourada */
-    border: 1px solid #000; /* Borda preta */
-    border-radius: 50%; /* Torna a imagem nova redonda */
+    /* Personalize a imagem nova conforme necessário */
 }
 
 .card:hover {
