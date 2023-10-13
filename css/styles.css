@@ -140,12 +140,12 @@ footer a {
     /* Estilize a imagem do topo esquerdo conforme necessário */
 }
 
-.card-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #fff;
-}
+.card-img {
+    width: 50px; /* Tamanho da imagem do cliente */
+    height: 50px; /* Tamanho da imagem do cliente */
+    display: block;
+    margin: 0 auto;
+        }
 
 .card:hover {
     transform: scale(1.05);
