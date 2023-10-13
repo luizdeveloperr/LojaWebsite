@@ -11,28 +11,7 @@ body {
     height: 100vh;
 }
 
-.navbar {
-    background-color: #333;
-    text-align: center;
-    width: 100%;
-    padding: 10px 0;
-}
 
-.navbar ul {
-    list-style: none;
-    padding: 0;
-}
-
-.navbar li {
-    display: inline;
-    margin: 10px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
 
 .content {
     text-align: center;
@@ -51,9 +30,6 @@ body {
     transition: background-color 0.3s; 
 }
 
-.btn:hover {
-    background-color: #5469a3; /* Altera a cor de fundo quando o botão é hover */
-}
 footer {
     text-align: center;
     background-color: #000;
@@ -82,65 +58,8 @@ footer a {
     margin-top: 5px; /* Espaço entre a imagem e o texto */
 }
 
-.card-section {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
 
-.card {
-    position: relative;
-    width: 250px;
-    min-height: 180px;
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    text-align: center;
-    margin: 10px;
-    transition: transform 0.2s, box-shadow 0.2s;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-}
-
-
-.card-img {
-    width: 50px; /* Tamanho da imagem do cliente */
-    height: 50px; /* Tamanho da imagem do cliente */
-    display: block;
-    border-radius: 10px;
-    margin: 0 auto;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-
-
-.card-title {
-    font-size: 18px; /* Tamanho do título do card */
-    margin: 10px 0;
-}
-
-.card-text {
-    font-size: 14px; /* Tamanho do texto do card */
-}
-
-.btn-primary {
-    background-color: #7289da; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 5px 10px; /* Ajuste o tamanho do botão conforme necessário */
-}
-
-.btn-primary:hover {
-    background-color: #5469a3; /* Cor de fundo do botão ao passar o mouse */
+.btn.btn-hover:hover {
+    background-color: #5469a3; /* Cor de fundo ao passar o mouse */
+    transition: background-color 0.3s; /* Duração da animação de transição */
 }
