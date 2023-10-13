@@ -123,6 +123,24 @@ footer a {
 }
 
 
+.card-title {
+    font-size: 18px; /* Tamanho do título do card */
+    margin: 10px 0;
+}
+
 .card-text {
-    font-size: 16px; /* Tamanho do texto de avaliação */
+    font-size: 14px; /* Tamanho do texto do card */
+}
+
+.btn-primary {
+    background-color: #7289da; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px; /* Ajuste o tamanho do botão conforme necessário */
+}
+
+.btn-primary:hover {
+    background-color: #5469a3; /* Cor de fundo do botão ao passar o mouse */
 }
