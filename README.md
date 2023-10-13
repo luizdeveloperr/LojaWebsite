@@ -1,74 +1,35 @@
-# SITE EM CRIAÇÃO!
+# Modelo de Portfólio Básico 📂
 
+Este repositório contém um modelo de portfólio básico para criar um site de portfólio pessoal. 
 
-# 🛍️ Loja de Discord - Site Simples 🛒
+## Como Usar Este Modelo 🛠️
 
-Este é um repositório que contém o código-fonte para um site simples de uma loja de Discord. O site foi desenvolvido para permitir que os usuários comprem produtos e serviços relacionados ao Discord de forma fácil e intuitiva.
+1. Faça um fork deste repositório. 
 
-## 🌟 Visão Geral
+2. Clone o repositório fork para a sua máquina local. 
 
-- **Página Inicial:** A página inicial apresenta uma visão geral dos produtos e serviços disponíveis na loja de Discord. Os usuários podem navegar e obter informações detalhadas sobre cada item.
+3. Personalize o conteúdo:
+   - Substitua as imagens na pasta `img/` por suas próprias imagens de projetos. 
+   - Edite o arquivo `index.html` para incluir suas informações pessoais, projetos e experiência. 
+   - Personalize o arquivo `style.css` para ajustar o design conforme suas preferências. 
 
-- **Catálogo:** Uma seção dedicada para listar todos os produtos disponíveis na loja. Os itens são organizados em categorias para facilitar a busca.
+4. Visualize o seu portfólio localmente abrindo o arquivo `index.html` em um navegador da web. 
 
-- **Páginas de Produto:** Cada produto tem uma página dedicada que fornece descrição detalhada, preços e opções de compra.
+5. Faça commit das suas alterações e envie para o seu repositório no GitHub. 
 
-- **Carrinho de Compras:** Os usuários podem adicionar produtos ao carrinho e fazer o checkout quando estiverem prontos.
+6. (Opcional) Configure o GitHub Pages para hospedar seu portfólio:
+   - Vá para as configurações do seu repositório no GitHub.
+   - Role até a seção "GitHub Pages".
+   - Escolha a branch que contém o seu código (geralmente "main").
 
-- **Pagamento:** Integração com métodos de pagamento para processar as transações com segurança.
+Seu portfólio estará disponível em: `https://seu-usuario.github.io/seu-repositorio/`. 🌍
 
-## 🚀 Tecnologias Utilizadas
+## Contribuição 🤝
 
-- HTML, CSS e JavaScript para o desenvolvimento do front-end.
-- [Banco de Dados](https://mongodb.com) para armazenar informações de produtos e transações.
-- [Método de Pagamento](https://mercadopago.com.br) para processar as transações.
+Sinta-se à vontade para abrir problemas (issues) ou enviar solicitações de pull se encontrar problemas ou tiver sugestões de melhorias para este template. 
 
-## 🏃‍♂️ Como Executar Localmente
+## Licença 📜
 
-Se você deseja executar este projeto em seu ambiente local, siga estas etapas:
+Este projeto é licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes. 
 
-1. Clone este repositório:
-
-   ```bash
-   git clone https://github.com/luizdeveloperr/LojaWebsite.git
-   ```
-
-2. Navegue até o diretório do projeto:
-
-   ```bash
-   cd LojaWebsite
-   ```
-
-3. Abra o arquivo `index.html` em seu navegador:
-
-   ```bash
-   xdg-open index.html
-   ```
-
-4. Você pode agora explorar o site em seu ambiente local.
-
-## 🤝 Contribuição
-
-Se você gostaria de contribuir para o desenvolvimento deste projeto, siga estas diretrizes:
-
-1. Faça um fork deste repositório.
-
-2. Crie uma branch para sua contribuição:
-
-   ```bash
-   git checkout -b sua-branch
-   ```
-
-3. Faça suas alterações e commit.
-
-4. Envie um Pull Request com uma descrição clara do que foi adicionado ou modificado.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-
-## 📧 Contato
-
-Se você tiver alguma dúvida ou precisar entrar em contato, você pode me encontrar em [kyoubots@gmail.com](kyoubots@gmail.com).
-
-Agradecemos por conferir o nosso projeto! ✨
+Divirta-se personalizando o seu portfólio! 😃
