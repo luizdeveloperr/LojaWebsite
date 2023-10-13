@@ -91,7 +91,7 @@ footer a {
 
 .card {
     position: relative;
-    width: 250px; /* Reduzi o tamanho dos cards */
+    width: 250px;
     min-height: 180px;
     padding: 10px;
     background-color: #000;
@@ -105,16 +105,11 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-
-.card h2,
-.card p {
-    z-index: 2;
+    position: relative; /* Adicione uma posição relativa */
 }
 
 .card h2 {
-    font-size: 16px; /* Reduzi o tamanho do texto do cliente */
+    font-size: 16px;
     margin: 10px 0;
     text-transform: uppercase;
     font-weight: bold;
@@ -129,15 +124,29 @@ footer a {
     border-radius: 5px;
 }
 
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.card-image-new {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    /* Estilize a imagem nova, por exemplo, adicione um fundo e borda */
+    background-color: #FFD700; /* Cor de fundo dourada */
+    border: 1px solid #000; /* Borda preta */
+    border-radius: 50%; /* Torna a imagem nova redonda */
+}
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
-.card img {
-    width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 10px; /* Centralize a imagem e adicione espaço abaixo dela */
-}
-
