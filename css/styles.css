@@ -11,19 +11,13 @@ body {
     height: 100vh;
 }
 
-/* Adicione este CSS no seu arquivo de estilo (styles.css) ou em uma tag <style> no cabeçalho do seu HTML. */
-
 /* Estilos para a barra de navegação */
 .navbar {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0; /* Altere de 'right' para 'left' */
     background-color: transparent; /* Remova a cor de fundo da barra de navegação */
     padding: 10px; /* Espaçamento interno */
-}
-
-.nav-item {
-    list-style: none;
 }
 
 /* Estilos para o botão de login */
