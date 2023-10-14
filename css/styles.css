@@ -35,8 +35,7 @@ body {
 }
 
 .content {
-    text-align: center;
-    margin-top: 100px;
+    padding: 20px; /* Add padding to create some space around the text */
 }
 
 .btn {
