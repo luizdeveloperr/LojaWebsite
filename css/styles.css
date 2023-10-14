@@ -15,8 +15,9 @@ body {
 
 /* Estilos para a barra de navegação */
 .navbar {
-    display: flex;
-    justify-content: flex-end; /* Alinhar à direita */
+    position: absolute;
+    top: 0;
+    right: 0;
     background-color: transparent; /* Remova a cor de fundo da barra de navegação */
     padding: 10px; /* Espaçamento interno */
 }
