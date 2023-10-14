@@ -29,19 +29,13 @@ body {
 .nav-link {
     text-decoration: none;
     color: #fff; /* Cor do texto do botão */
-    border: none; /* Remova a borda do botão */
-    background-color: #000; /* Cor de fundo preta */
-    padding: 10px; /* Espaçamento dentro do botão */
-    border-radius: 50%; /* Deixa o botão circular (border-radius 50%) */
-    width: 40px; /* Defina a largura desejada */
-    height: 40px; /* Defina a altura desejada */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #7289DA; /* Cor azul do Discord */
+    padding: 10px 20px; /* Espaçamento dentro do botão */
+    border-radius: 15px; /* Cantos arredondados */
 }
 
 .nav-link:hover {
-    background-color: #333; /* Cor de fundo quando hover (ao passar o mouse) */
+    background-color: #4E5D94; /* Cor de fundo quando hover (ao passar o mouse) */
 }
 .content {
     padding: 20px; /* Add padding to create some space around the text */
