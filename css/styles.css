@@ -85,55 +85,6 @@ footer a {
     margin-top: 5px; /* Espaço entre a imagem e o texto */
 }
 
-.card-section {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
-
-.card {
-    position: relative;
-    width: 250px;
-    min-height: 180px;
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    text-align: center;
-    margin: 10px;
-    transition: transform 0.2s, box-shadow 0.2s;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-}
-
-
-.card-img {
-    width: 50px; /* Tamanho da imagem do cliente */
-    height: 50px; /* Tamanho da imagem do cliente */
-    display: block;
-    border-radius: 10px;
-    margin: 0 auto;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-
-
-.card-title {
-    font-size: 18px; /* Tamanho do título do card */
-    margin: 10px 0;
-}
-
-.card-text {
-    font-size: 14px; /* Tamanho do texto do card */
-}
 
 .btn-primary {
     background-color: #7289da; /* Cor de fundo do botão */
@@ -148,13 +99,3 @@ footer a {
     background-color: #5469a3; /* Cor de fundo do botão ao passar o mouse */
 }
 
-/* No seu arquivo de estilo (styles.css) ou em uma tag <style> no cabeçalho do seu HTML */
-
-#imagem-redonda {
-    width: 100px; /* Defina a largura desejada para a imagem */
-    height: 100px; /* Defina a altura desejada para a imagem (igual à largura para torná-la redonda) */
-    border-radius: 50%; /* Torna a imagem redonda */
-    position: absolute; /* Define a posição absoluta */
-    top: 0; /* Alinha no topo da página */
-    left: 0; /* Alinha à esquerda da página */
-}
