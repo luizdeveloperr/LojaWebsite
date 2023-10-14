@@ -17,7 +17,7 @@ body {
 .navbar {
     display: flex;
     justify-content: flex-end; /* Alinhar à direita */
-    background-color: #333; /* Cor de fundo da barra de navegação */
+    background-color: transparent; /* Remova a cor de fundo da barra de navegação */
     padding: 10px; /* Espaçamento interno */
 }
 
@@ -25,16 +25,23 @@ body {
     list-style: none;
 }
 
+/* Estilos para o botão de login */
 .nav-link {
     text-decoration: none;
     color: #fff; /* Cor do texto do botão */
-    padding: 10px 15px; /* Espaçamento dentro do botão */
-    border: 1px solid #fff; /* Borda do botão */
-    border-radius: 5px; /* Cantos arredondados do botão */
+    border: none; /* Remova a borda do botão */
+    background-color: #000; /* Cor de fundo preta */
+    padding: 10px; /* Espaçamento dentro do botão */
+    border-radius: 50%; /* Deixa o botão circular (border-radius 50%) */
+    width: 40px; /* Defina a largura desejada */
+    height: 40px; /* Defina a altura desejada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-link:hover {
-    background-color: #555; /* Cor de fundo quando hover (ao passar o mouse) */
+    background-color: #333; /* Cor de fundo quando hover (ao passar o mouse) */
 }
 .content {
     padding: 20px; /* Add padding to create some space around the text */
