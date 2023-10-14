@@ -24,6 +24,10 @@ Este repositório contém um modelo de portfólio básico para criar um site de 
 
 Seu portfólio estará disponível em: `https://seu-usuario.github.io/seu-repositorio/`. 🌍
 
+## Preview 📨 
+
+[Clique aqui](https://portifolio-nearbotzin.vercel.app/)
+
 ## Contribuição 🤝
 
 Sinta-se à vontade para abrir problemas (issues) ou enviar solicitações de pull se encontrar problemas ou tiver sugestões de melhorias para este template. 
