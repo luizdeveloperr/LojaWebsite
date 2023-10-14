@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luiz Developer</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.0/canvas-confetti.min.js"></script>
-    
 </head>
 <body>
 
@@ -22,11 +20,6 @@
       <div class="content">
         <h1>Bem-vindo ao meu portfólio.</h1>
         <p>Aqui você encontra meus projetos e trabalhos.</p>
-          <script>
-              document.getElementById("ver-projetos-btn").addEventListener("click", function () {
-    confetti();
-});
-          </script>
        <a href="https://github.com/luizdeveloperr" class="btn" id="ver-projetos-btn">Ver Projetos</a>
         <a href="https://discord.com" class="btn">Discord</a>
       </div>
@@ -49,5 +42,12 @@
     <footer>
         <p>Feito com <a href="https://github.com/luizdeveloperr" target="_blank">❤️ por luizdeveloperr</a></p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.0/canvas-confetti.min.js"></script>
+    <script>
+        document.getElementById("ver-projetos-btn").addEventListener("click", function () {
+            confetti();
+        });
+    </script>
 </body>
 </html>
